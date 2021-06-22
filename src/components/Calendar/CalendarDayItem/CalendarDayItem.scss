@@ -1,0 +1,22 @@
+.container {
+  padding: 8px;
+  background-color: #e9edef;
+  border: solid 1px white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  &.nonWorking {
+    background-color: #efdede;
+
+    .title {
+      color: #e2b3b3;
+    }
+  }
+}
+
+.title {
+  font-size: 24px;
+  color: #74858e;
+  font-weight: 600;
+}

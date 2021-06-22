@@ -1,0 +1,7 @@
+.vscode
+.env
+**/node_modules/
+**/bs
+.bsb.lock
+*.bs.js
+.merlin

@@ -1,0 +1,26 @@
+.container {
+  padding: 8px;
+  background-color: #d1d7da;
+  border: solid 1px white;
+
+  &.nonWorking {
+    background-color: #efdede;
+
+    .number {
+      color: #e2b3b3;
+    }
+  }
+
+  &:hover {
+    
+    .box {
+      opacity: 1; 
+    }
+  }
+}
+
+.number {
+  font-size: 21px;
+  color: #74848e;
+  font-weight: 600;
+}

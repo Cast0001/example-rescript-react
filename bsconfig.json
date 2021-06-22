@@ -1,0 +1,27 @@
+{
+  "name": "petgrooming-client-customer",
+  "reason": {
+    "react-jsx": 3
+  },
+  "sources": {
+    "dir": "src",
+    "subdirs": true
+  },
+  "bsc-flags": ["-bs-super-errors", "-bs-no-version-header"],
+  "package-specs": [
+    {
+      "module": "es6",
+      "in-source": true
+    }
+  ],
+  "suffix": ".bs.js",
+  "namespace": true,
+  "bs-dependencies": [
+    "@rescript/react",
+    "rescript-classnames"
+  ],
+  "bs-dev-dependencies": [],
+  "warnings": {
+    "number": "-48"
+  }
+}

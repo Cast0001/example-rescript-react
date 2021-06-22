@@ -1,0 +1,47 @@
+.container {
+  padding: 8px;
+  background-color: #e9edef;
+  border: solid 1px white;
+  transition: .2s;
+
+  &.nonWorking {
+    transform: none !important;
+    background-color: #efdede;
+    border: solid 1px white;
+
+    .number {
+      color: #e2b3b3;
+    }
+
+    &.today {
+      background-color: #e8c5c5;
+      border: solid 1px #ce9595;
+
+      .number {
+        color: #bb8282;
+      }
+    }
+  }
+
+  &.today {
+    background-color: #cbefd6;
+    border: solid 1px #9dd2ad;
+
+    .number {
+      color: #84a78f;
+    }
+  }
+
+  &:hover {
+
+    .holidayButton {
+      opacity: 1;
+    }
+  }
+}
+
+.number {
+  font-size: 21px;
+  color: #74848e;
+  font-weight: 600;
+}
